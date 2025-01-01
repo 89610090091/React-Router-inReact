@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+useNavigate vs useHistory
 
 > https://github.com/89610090091/React-Router-inReact/blob/main/src/components/About.tsx
 > How it works useNavigate()

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link, Routes, NavLink } from "react-rou
 import Home from "./components/Home";
 import About from "./components/About";
 import Shop from "./components/Shop";
+import LoremText from "./components/LoremText";
 
 export default function App() {
   return (

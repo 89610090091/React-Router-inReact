@@ -1,4 +1,4 @@
-useNavigate vs useHistory
+useNavigate vs useHistory problem react-router-dom version7
 
 > https://github.com/89610090091/React-Router-inReact/blob/main/src/components/About.tsx
 > How it works useNavigate()

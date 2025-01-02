@@ -9,6 +9,7 @@ export default function App() {
   return (
 
     <div className="wrap">
+
       <Router>
         <main>
 
@@ -16,19 +17,18 @@ export default function App() {
             <ul>
               <li><NavLink to="/">Home</NavLink></li>
               <li><NavLink to="/about">About</NavLink></li>
-              <li><NavLink to="/shop">Shop</NavLink></li>
+              <li><NavLink to="/shop/1">Shop</NavLink></li>
             </ul>
           </nav>
 
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/About' element={<About />} />
-            <Route path='/shop' element={<Shop />} />
+            <Route path="/Shop/:id" element={<Shop />}></Route>
           </Routes>
 
         </main>
       </Router>
     </div>
-
   );
 }

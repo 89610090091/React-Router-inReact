@@ -6,4 +6,4 @@ useNavigate vs useHistory problem react-router-dom version7
 > How to set up the GoBack() function in React-router: route history
 > https://sky.pro/wiki/javascript/kak-nastroit-funktsiyu-go-back-v-react-router-istoriya-marshruta/
 > https://api.reactrouter.com/v7/functions/react_router.useNavigate.html
-> https://reactdev.ru/libs/react-router.6/tutorial/#_4
+> Tutorial: https://reactdev.ru/libs/react-router.6/tutorial/#_4

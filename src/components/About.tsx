@@ -1,4 +1,3 @@
-import { Fragment } from "react/jsx-runtime";
 import LoremText from "./LoremText";
 import { useNavigate } from "react-router-dom";
 
@@ -8,7 +7,7 @@ const About = () => {
     return (
         <div>
             <h1>About</h1>
-            <button onClick={() => navigate(-1)}>Назад</button>;
+            <button onClick={() => navigate(-1)}>Назад</button>
             <LoremText />
         </div>
     );

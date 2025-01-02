@@ -1,5 +1,6 @@
 import { Fragment } from "react/jsx-runtime";
 import LoremText from "./LoremText";
+import { useParams } from "react-router-dom";
 
 // Shop Page
 const Shop = () => (
@@ -8,5 +9,5 @@ const Shop = () => (
         <LoremText />
     </Fragment>
 );
-
 export default Shop;
+

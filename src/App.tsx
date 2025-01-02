@@ -1,10 +1,9 @@
-import React, { Fragment } from "react";
+// import React, { Fragment } from "react";
 import "./index.css"
-import { BrowserRouter as Router, Route, Link, Routes, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, NavLink } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
 import Shop from "./components/Shop";
-import LoremText from "./components/LoremText";
 
 export default function App() {
   return (
@@ -12,6 +11,7 @@ export default function App() {
     <div className="wrap">
       <Router>
         <main>
+
           <nav>
             <ul>
               <li><NavLink to="/">Home</NavLink></li>
@@ -19,11 +19,13 @@ export default function App() {
               <li><NavLink to="/shop">Shop</NavLink></li>
             </ul>
           </nav>
+
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='About' element={<About />} />
-            <Route path='Shop' element={<Shop />} />
+            <Route path='/About' element={<About />} />
+            <Route path='/shop' element={<Shop />} />
           </Routes>
+
         </main>
       </Router>
     </div>

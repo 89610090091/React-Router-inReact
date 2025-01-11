@@ -11,3 +11,6 @@ useHistory vs useNavigate problem react-router-dom version7
 > Tutorial: https://reactdev.ru/libs/react-router.6/tutorial/#_4
 
 > Routing in React Router https://ru.hexlet.io/blog/posts/react-router-v6#deklarativnaya-marshrutizatsiya
+
+> https://docs.sentry.io/platforms/javascript/guides/react/features/react-router/v7/
+
